@@ -18,6 +18,8 @@
 
 ## 🏗️ 架构体系
 
+> 💡 **提示**: 完整的2026技术架构图请查看 [三层架构设计](#三层架构设计) 章节
+
 ### 三层架构设计
 
 ```
@@ -27,6 +29,33 @@
 社区运营    轻应用       知识库星云
 资源整合    小程序       多模型支持
 ```
+
+#### 2026完整技术架构图
+
+> 📊 **架构图文件**: [2026架构v3.drawio](./2026架构v3.drawio)
+>![2026架构v3](2026架构v3.drawio.png)
+> **在线查看**: 请使用 [Draw.io](https://app.diagrams.net/) 打开上述文件查看完整架构图
+>
+> **主要组件**:
+> - **用户层**: Web、Mini-APP、智硬件、三方应用
+> - **AI-Router**: 智能路由调度层
+> - **应用层**: RAG应用、AI管理、知识库星云
+> - **LLM层**: 商业API、私有微调、医疗专用模型
+> - **安全层**: SSO、日志监管、数据水印
+> - **发布层**: Vercel、EdgeOne、MCP服务、API服务
+> - **存储层**: MongoDB、PostgreSQL、Redis、Neo4j、Supabase
+> - **开发工具**: IDE(Cursor/Trae/Kiro)、快速原型工具(Vibe/WeaveFox/Bolt.new)
+> - **流水线**: RAG知识获取流水线、微调模型流水线
+
+<!-- 
+💡 如需在README中直接显示架构图,请按以下步骤操作:
+1. 在 Draw.io 中打开 2026架构v3.drawio
+2. 导出为 PNG 或 SVG 格式
+3. 保存到 ./assets/images/ 目录(如 2026-architecture.png)
+4. 取消下面的注释并更新图片路径:
+
+![2026技术架构图](./assets/images/2026-architecture.png)
+-->
 
 ### ACT框架
 
