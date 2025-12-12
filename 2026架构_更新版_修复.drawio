@@ -1,0 +1,268 @@
+<mxfile host="65bd71144e">
+    <diagram name="第 1 页" id="e5lLBi7fHp8A4kfYkG7-">
+        <mxGraphModel dx="1221" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="dev-tools-layer" value="开发工具层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="275.63" y="920" width="993.75" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="security-layer" value="安全层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#ffeaa7;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="276.25" y="820" width="990" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="user-layer" value="用户层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="60" width="230" height="1030" as="geometry"/>
+                </mxCell>
+                <mxCell id="llm-layer" value="LLM层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="670" width="960" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="publish-layer" value="发布层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1290" y="70" width="170" height="1030" as="geometry"/>
+                </mxCell>
+                <mxCell id="rag-layer" value="RAG层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="305" width="385" height="175" as="geometry"/>
+                </mxCell>
+                <mxCell id="app-layer" value="应用层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="66.25" width="945" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="kb-layer" value="知识库层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;verticalAlign=top;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="550" width="960" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="ai-mgmt-layer" value="AI管理层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#aed581;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="940" y="300" width="290" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="rag-demand" value="RAG问答需求" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="242.5" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="chronic-mgmt" value="长病程自我管理\n碎片场景" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="300" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="disease-tools" value="病情管理工具" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="450" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="third-voice" value="第三声音需求" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="585" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="psych-support" value="心理/安宁支持" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="515" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="ai-content-pub" value="AI内容发布" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="780" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="community-board" value="社区看板" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="850" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="task-market" value="任务市场" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="920" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="ai-media" value="AI媒体矩阵" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="980" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="patient-label" value="患者\n家属" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#3333FF;fontColor=#FFF9F9;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="403.75" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="doctor-label" value="医生" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#3333FF;fontColor=#FFF9F9;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="690" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="community-label" value="社区" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#3333FF;fontColor=#FFF9F9;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="845" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="web-app" value="Web" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="92.5" width="100" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="mini-app" value="Mini-APP" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="92.5" width="100" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="smart-hardware" value="小智硬件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="93.75" width="100" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="third-party-app" value="三方应用\n(api支持）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1100" y="93.75" width="100" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="ai-router-top" value="AI-Router" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="250" width="955" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ai-router-bottom" value="AI-Router" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="506.25" width="950" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="fastgpt" value="Fastgpt" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="313" y="401" width="106" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="dify" value="Dify" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="432" y="401" width="106" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="graphrag" value="Graphrag" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="555" y="401" width="106" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="trustrag" value="TrustRAG" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
+                    <mxGeometry x="313" y="445" width="106" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="rag-eval" value="RAG评估" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
+                    <mxGeometry x="432" y="445" width="106" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="multimodal-rag" value="多模态RAG" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
+                    <mxGeometry x="555" y="445" width="106" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="rag-label" value="RAG" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="455" y="320" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="agent-mgmt" value="Agent管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="306.25" width="230" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="prompt-mgmt" value="Prompts管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="376.25" width="230" height="52.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="mcp" value="MCP" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="440" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="mongodb" value="Mongodb" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="970" y="361.25" width="108" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="redis" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="970" y="405" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="supabase" value="Supabase" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1140" y="360" width="72" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="storage-label" value="存储" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1070" y="320" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="rag-kb" value="RAG KB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="560" width="120" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="independent-kb" value="独立KB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="560" width="120" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="personal-kb" value="个人知识库" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="560" width="120" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="kb-crawling" value="知识爬取" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="964" y="560" width="120" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="kb-preprocessing" value="知识预处理\n(MinerU2)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1100" y="560" width="120" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="external-kb-api" value="外部知识库\nAPI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="560" width="110" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="kb-cloud-label" value="知识库星云" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="695" y="582.5" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="fastgpt-dify-label" value="Fastgpt/Dify" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="610" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="weknora-label" value="WeKnora" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="610" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ima-get-label" value="Ima &amp; Get笔记" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="805" y="610" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="llm-api" value="LLM api" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="675" width="120" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="private-llm" value="私有微调LLM\n(Medgemma3)" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="680" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="medical-llm" value="医疗LLM\n* quark" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="790" y="675" width="120" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="health-community-llm" value="健康类社区\n伙伴LLM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="950" y="675" width="120" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="general-llm" value="通用类LLM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1110" y="675" width="120" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="openai-gemini-label" value="OpenAI\nGemini" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="720" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="stepfun-glm-label" value="Stepfun\nGLM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="720" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="sso" value="SSO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="861.25" width="100" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="log-monitor" value="日志监管" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="861.25" width="100" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="data-watermark" value="数据水印" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="861.25" width="100" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="compliance-security" value="合规安全" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="861.25" width="100" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="data-governance" value="数据监管" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="770" y="861.25" width="100" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="security-label" value="安全" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="820" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="vibe" value="Vibe" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="970" width="125" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ide" value="IDE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="455" y="972.5" width="120" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="kimi-k2" value="Kimi K2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="972.5" width="100" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="claude-sonnet" value="Claude Sonnet" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="972.5" width="100" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="readpro" value="Readpro" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="1011.25" width="100" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="intelligent-ops" value="智能运维" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="964" y="970" width="100" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="resource-mgmt" value="资源管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="1020" width="100" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="dev-tools-label" value="开发工具" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="930" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ai-prod-tools-label" value="AI生产工具" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="930" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="vercel" value="Vercel" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1322.5" y="377.5" width="100" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="edgeone" value="Edgeone" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1325" y="235" width="100" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="mcp-service" value="MCP服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1325" y="536.25" width="100" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="api-service" value="API 服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1325" y="617.5" width="100" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="multi-platform-pub" value="多端发布" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1325" y="460" width="100" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="publish-label" value="发布" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" parent="1" vertex="1">
+                    <mxGeometry x="1345" y="93.75" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="git" value="Git" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="940" width="105" height="80" as="geometry"/>
+                </mxCell>
+                <UserObject label="weavefox\nbolt.new\nlovely" id="vibe-tools">
+                    <mxCell style="text;whiteSpace=wrap;html=1;align=left;fontSize=10;" parent="1" vertex="1">
+                        <mxGeometry x="320" y="1030" width="80" height="70" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="cursor/trae/kiro\n\nx-Cli" id="ide-tools">
+                    <mxCell style="text;whiteSpace=wrap;html=1;align=left;fontSize=10;" parent="1" vertex="1">
+                        <mxGeometry x="460" y="1020" width="120" height="70" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="github\ngitee\ngitcode" id="git-platforms">
+                    <mxCell style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=default;" parent="1" vertex="1">
+                        <mxGeometry x="1335" y="990" width="70" height="70" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="2" value="CNB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1325" y="140" width="100" height="57.5" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
